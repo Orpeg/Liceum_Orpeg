@@ -1,4 +1,4 @@
-[![Orpeg](images/orpeg.jpg)](http://www.orpeg.pl)
+[![Orpeg](../images/orpeg.jpg)](http://www.orpeg.pl)
 
 [# Orpeg_Liceum](http://www.orpeg.pl)
 
