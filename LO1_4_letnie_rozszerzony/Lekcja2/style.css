@@ -1,0 +1,78 @@
+body {
+    background-image: url(img/linen.png);
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h1 {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+h1.title {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 2px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+}
+
+.stopka {
+    font-size: 0.8em;
+}
+
+.container {
+    margin-left: 150px;
+    width: 600px;
+    min-height: 600px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.menu {
+    width: 95px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    border-right: 1px solid white;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu:first-child{
+
+	border-left: 1px solid white;
+}
+
+.menu:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    border: 1px solid black;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+    background-image: url(img/linen.png);
+    width: 1024px;
+    min-height: 800px;
+    margin: auto;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    color: #41628A;
+    margin: auto;
+}
+
+.pic {
+width: 40%;
+padding: 10px;
+height: 1500px;
+vertical-align: middle;
+
+}
+
+.txt{
+
+    margin: 50px;
+    padding: 50px;
+    height: 1500px;
+
+
+}
