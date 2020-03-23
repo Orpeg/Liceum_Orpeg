@@ -5,9 +5,11 @@ int main(){
 //     aż do pierwszej liczby podzielnej przez 7
     
     for (int i=1; i<=10;i++){
-        if (i%7 == 0)
+        std::cout << 
+       "obieg petli nr " << i << std::endl;
+        if (i == 7)
             break;
-        std::cout << i << ",  ";
+        
     }
     std::cout << std::endl;
     return 0;

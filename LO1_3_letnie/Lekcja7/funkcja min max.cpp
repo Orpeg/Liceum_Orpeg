@@ -1,12 +1,14 @@
 #include <iostream>
+// stosujemy orpeator trójargumentowy
+// blok warunku ? if true : if false 
 int min(int a, int b)
 {
-    return a<b ? a:b;
+    return a<b ? a : b;
 }
 
 int max (int a, int b)
 {
-    return a>b? a : b;
+    return a>b ? a : b;
 }
 
 int main()

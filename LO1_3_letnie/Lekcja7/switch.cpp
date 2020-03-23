@@ -1,7 +1,7 @@
 #include <iostream>
 int main(){
     int x;
-    std::cout << "Wprowadź liczbę od 0 do 4 \n";
+    std::cout << "Wprowadź liczbę od 0 do 5 \n";
     std::cin >> x;
     switch (x){
         
@@ -19,6 +19,9 @@ int main(){
             break;
         case 4:
             std::cout << "cztery \n";
+            break;
+        case 5:
+            std::cout << "pięć \n";
             break;
         default:
             std::cout << "Błędna wartość \n";
