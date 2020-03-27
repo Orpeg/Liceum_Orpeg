@@ -1,25 +1,30 @@
 #include <iostream>
 
-int main(){
+int main()
+
+{
 // to jest linia komentarza
 // działania na różnych zmiennych
 
-	// int a = 10;
-	// float b = 3;
+int a = 10;
+float b = 3;
 
-	// float x;
+float x;
+std::cout << "1 . DZIAŁANIA NA ZMIENNYCH" << std::endl;
+x = a/b;
 
-	// x = a/b;
+std::cout << " >> działania na liczbach całkowitych"<<"\n" << std::endl;
+std::cout << "x = a/b = "<< x << std::endl;
 
-	// std::cout << "działania na liczbach całkowitych"<<std::endl;
-	// std::cout << "x = a/b = "<< x << std::endl;
+std::cout << "dzielenie przez 4"<<std::endl;
+std::cout << "a/4 = "<< a/4.0 <<std::endl;
 
-	// std::cout << "dzielenie przez 4"<<std::endl;
-	// std::cout << "a/4 = "<< a/4.0 <<std::endl;
+std::cout << "dzielenie przez 2.5"<< std::endl;
+std::cout << "a/2.5 = " << a/2.5 << std::endl;
+// zakładanie pętli while i for
 
-	// std::cout << "dzielenie przez 2.5"<< std::endl;
-	// std::cout << "a/2.5 = " << a/2.5 << std::endl;
-
+std::cout << "\n"<< "ZAKŁADANIE PĘTLI " << "\n" << std::endl;
+std::cout << "  >>Petla while i przerwanie break" << std::endl;
 int j=1;
 while (j <= 10){
 	std::cout << "obieg pętli nr  " << j << std::endl;
@@ -27,7 +32,9 @@ while (j <= 10){
 		break;
 	j = j+1;
 }
-std::cout <<"a tera pętla for" << std::endl;
+
+
+std::cout <<"  >> Pętla for i przerwanie break" <<"\n"<< std::endl;
 
 for (int i=1; i <= 10; i++){
 
@@ -35,9 +42,6 @@ for (int i=1; i <= 10; i++){
 	if (i == 4)
 		break;
 }
-
-
-
 
 return 0;
 }
