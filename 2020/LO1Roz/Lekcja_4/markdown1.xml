@@ -1,0 +1,32 @@
+<xml>
+    <pracownicy>
+        <pracownik>
+            <imie>Jan</imie>
+            <nazwisko>Kowalski</nazwisko>
+            <płeć>M</płeć>
+            <stanowisko>spawacz</stanowisko>
+        </pracownik>
+        <pracownik>
+            <imie>Anna</imie>
+            <nazwisko>Nowak</nazwisko>
+            <płeć>K</płeć>
+            <stanowisko>sekretarka</stanowisko>
+        </pracownik>
+        <pracownik>
+            <imie>Bolesław</imie>
+            <nazwisko>Zamożny</nazwisko>
+            <płeć>M</płeć>
+            <stanowisko>prezes</stanowisko>
+        </pracownik>
+    </pracownicy>
+    <komputery>
+        <komputer atrybut="stacjonarny">
+
+        <nazwa> Dell 3 <nazwa>
+
+        </komputer>
+
+        <komputer atrybut="laptop"> Asus </komputer>
+        <serwer atrybut="20 procesorów 512G RAM"> Dell EMC </serwer>
+    </komputery>
+</xml>

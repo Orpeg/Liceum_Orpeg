@@ -1,0 +1,38 @@
+<xml>
+    <Nazwa gatunek="Mak Alejski">
+        Mak
+    </Nazwa>
+    <liście>
+        Pierzaste
+    </liście>
+    <kwiaty>
+        Duże, pojedyncze
+    </kwiaty>
+    <owoce>
+        Wielonasienne torebki
+    </owoce>
+    <Nazwa gatunek="Mak Lekarski">
+        Mak
+    </Nazwa>
+    <liście>
+        Pierzaste
+    </liście>
+    <kwiaty>
+        Duże, pojedyncze
+    </kwiaty>
+    <owoce>
+        Wielonasienne torebki
+    </owoce>
+    <Nazwa gatunek="Mak polny">
+        Mak
+    </Nazwa>
+    <liście>
+        Pierzaste
+    </liście>
+    <kwiaty>
+        Duże, pojedyncze
+    </kwiaty>
+    <owoce>
+        Wielonasienne torebki
+    </owoce>
+</xml>
