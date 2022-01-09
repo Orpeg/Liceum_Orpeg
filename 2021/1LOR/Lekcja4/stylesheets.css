@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #3F3F3FFF;
+    background-image: url('img/45degreee_fabric.png');
+}
+
+.maintext {
+
+    width: 40%;
+    padding: 40px;
+    border-radius: 40px;
+    float: left;
+    border: solid 2px;
+}
+
+#text{
+width: 40%;
+    padding: 40px;
+    /*border-radius: 40px;*/
+    /*float: left;*/
+    border: solid 2px;
+	
+}
