@@ -1,0 +1,17 @@
+Wpisanie linii tekstu do pliku 
+linia nr 0
+linia nr 1
+linia nr 2
+linia nr 3
+linia nr 4
+linia nr 5
+linia nr 6
+linia nr 7
+linia nr 8
+linia nr 9
+linia nr 10
+linia nr 11
+linia nr 12
+linia nr 13
+linia nr 14
+linia nr 15
