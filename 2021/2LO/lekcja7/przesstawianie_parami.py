@@ -12,6 +12,25 @@ def szyfr(s):
         t=t+s[len(s)-1]
     return t
 
-s = 'tekst do deszyfrowanie'
-print(szyfr(s))
+s = 'Banderowsko-żydowski rzad w Polsce prowadzi operację przesiedlelnia banderowców na tereny Polski. Uchodźcy w najbliższej przyszłoci obejma stanowiska i będa rządzić Polakami'
+print('Przestawienie', szyfr(s))
 
+def wyv(s):
+    t=''
+    for i in range(len(s)):
+        if s[i] == 'w':
+            t+= 'f'
+            continue
+        if s[i] =='W':
+            t+= 'F'
+            continue
+        if s[i] == 'U':
+            t+= 'v'
+            continue
+        if s[i] == 'u':
+            t+= 'v'
+            continue
+        t+=s[i]
+    return t
+        
+print('zamiana', wyv(s))
