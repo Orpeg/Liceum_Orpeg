@@ -12,7 +12,7 @@ def szyfr(s):
         t=t+s[len(s)-1]
     return t
 
-s = 'Banderowsko-żydowski rzad w Polsce prowadzi operację przesiedlelnia banderowców na tereny Polski. Uchodźcy w najbliższej przyszłoci obejma stanowiska i będa rządzić Polakami'
+s = 'Stoi na stacji lokomotywa'
 print('Przestawienie', szyfr(s))
 
 def wyv(s):
