@@ -11,6 +11,7 @@ int main() {
 		newfile << "Wpisanie linii tekstu do pliku \n"; //wprowadzenie tekstu
 		for (int i; i<16; i++) {
 
+
 			newfile << "linia nr "<< i <<"\n";
 		}
 

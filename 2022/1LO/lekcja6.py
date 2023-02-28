@@ -77,23 +77,17 @@ sqrt(2)
 def pole_tr(a,b):
     a = float(input(' podaj bok a '))
     b = float(input(' podaj bok b '))
-   print(f'pole trójkąta prostokątnego o przyprostokątnych a = {a} oraz b = {b} wynosi {a*b/2}')
-def pole_tr(a,b):
-    a = float(input(' podaj bok a '))
-    b = float(input(' podaj bok b '))
     print(f'pole trójkąta prostokątnego o przyprostokątnych a = {a} oraz b = {b} wynosi {a*b/2}')
     
 pole_tr(10,20)
 def pole_tr(a,b):
-    #a = float(input(' podaj bok a '))
-    #b = float(input(' podaj bok b '))
     print(f'pole trójkąta prostokątnego o przyprostokątnych a = {a} oraz b = {b} wynosi {a*b/2}')
     
 pole_tr(10,20)
 #dowolny trójkąt
 def heron(a,b,c):
-    #obwod
-    p = a+b+c
+    #polowa obwodu
+    p = (a+b+c)/2
     s = sqrt(p*(p-a)*(p-b)*(p-c))
     print(f'pole trojkata dowolnego o bokacch a={a}, b={b}, c={c} wynosi {s}')
     
@@ -137,5 +131,3 @@ def spacja(s):
     
 s
 spacja(s)
-s
-get_ipython().run_line_magic('save', 'lekcja6.py 1-111')

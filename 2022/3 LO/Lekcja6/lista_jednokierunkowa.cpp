@@ -13,14 +13,14 @@ int main() {
     lista.push_front(10);
 
     // Wyświetlamy zawartość listy
-    cout << "Zawartość listy: ";
+    cout << "Zawartosc listy: ";
     for (auto i : lista)
         cout << i << " ";
     cout << endl;
 
     // Usuwamy drugi element z listy
     lista.pop_front();
-    cout << "Zawartość listy po usunięciu drugiego elementu: ";
+    cout << "Zawartosc listy po usunieciu drugiego elementu: ";
     for (auto i : lista)
         cout << i << " ";
     cout << endl;
