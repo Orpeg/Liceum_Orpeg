@@ -1,0 +1,1 @@
+linia tekstu w pliku dane.txt
